@@ -1,0 +1,8 @@
+[[language]]
+name = "rust"
+language-servers = ["rust-analyzer" ]
+formatter = { command = "rustfmt" }
+auto-format = true
+indent = { tab-width = 4, unit = "t" }
+[language-server.rust-analyzer]
+command = "rust-analyzer"
