@@ -9,7 +9,7 @@ command = "rust-analyzer"
 
 [[language]]
 name = "python"
-language-servers = ["ruff"]
+language-servers = ["ruff", "pylsp"]
 formatter = { command = "ruff" }
 auto-format = true
 indent = { tab-width = 4, unit = "t"}
