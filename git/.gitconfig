@@ -4,24 +4,21 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
-[user]
-	email = wolfeycode@gmail.com
-	name = WolfEYc
 [core]
 	editor = hx
-    pager = delta
+        pager = delta
 [init]
 	defaultBranch = main
 	
 [interactive]
-    diffFilter = delta --color-only
+        diffFilter = delta --color-only
 
 [delta]
-    navigate = true    # use n and N to move between diff sections
+        navigate = true    # use n and N to move between diff sections
 
     # delta detects terminal colors automatically; set one of these to disable auto-detection
     # dark = true
     # light = true
 
 [merge]
-    conflictstyle = diff3
+        conflictstyle = diff3

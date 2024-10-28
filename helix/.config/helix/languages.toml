@@ -6,3 +6,10 @@ auto-format = true
 indent = { tab-width = 4, unit = "t" }
 [language-server.rust-analyzer]
 command = "rust-analyzer"
+
+[[language]]
+name = "python"
+language-servers = ["ruff"]
+formatter = { command = "ruff" }
+auto-format = true
+indent = { tab-width = 4, unit = "t"}
