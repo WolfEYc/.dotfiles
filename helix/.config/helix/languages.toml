@@ -9,7 +9,14 @@ command = "rust-analyzer"
 
 [[language]]
 name = "python"
-language-servers = ["ruff", "pylsp"]
-formatter = { command = "ruff" }
-auto-format = true
-indent = { tab-width = 4, unit = "t"}
+language-servers = [ "pyright", "ruff" ]
+
+[language-server.pyright.config.python.analysis]
+typeCheckingMode = "basic"
+
+[language-server.ruff.config.settings]
+args = ["--ignore", "E501"]
+# if you choose `ruff` itself
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
