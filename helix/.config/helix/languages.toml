@@ -6,3 +6,16 @@ auto-format = true
 indent = { tab-width = 4, unit = "t" }
 [language-server.rust-analyzer]
 command = "rust-analyzer"
+
+[[language]]
+name = "python"
+language-servers = [ "basedpyright", "ruff" ]
+auto-format = true
+formatter = {command = "ruff", args = ["format", "--line-length", "88", "-"]}
+
+[language-server.ruff.config.settings]
+args = ["--ignore", "E501"]
+# if you choose `ruff` itself
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
