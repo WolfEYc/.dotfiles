@@ -1,3 +1,7 @@
 [font]
-normal = { family = "JetBrainsMono" }
+normal = { family = "JetBrains Mono" }
 size = 16
+
+[window.padding]
+x = 10
+y = 10
