@@ -5,3 +5,38 @@ size = 16
 [window.padding]
 x = 10
 y = 10
+
+
+# Copy the configuration below and add it to your
+# ~/.config/alacritty/alacritty.toml file
+
+# Colors (Root Loops)
+# via rootloops.sh
+
+[colors.primary]
+background = '#080808'
+foreground = '#e2e2e2'
+
+[colors.cursor]
+text = '#e2e2e2'
+cursor = '#b9b9b9'
+
+[colors.normal]
+black = '#222222'
+red = '#f75b72'
+green = '#67af34'
+yellow = '#c98b1a'
+blue = '#509af6'
+magenta = '#ca64f3'
+cyan = '#1faeae'
+white = '#b9b9b9'
+
+[colors.bright]
+black = '#525252'
+red = '#fb8590'
+green = '#75c73b'
+yellow = '#e49f27'
+blue = '#77b1fb'
+magenta = '#d68af7'
+cyan = '#24c6c6'
+white = '#f1f1f1'
