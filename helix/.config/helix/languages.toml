@@ -11,3 +11,14 @@ args = ["--ignore", "E501"]
 [language-server.ruff]
 command = "ruff"
 args = ["server"]
+
+[[language]]
+name = "gdscript"
+language-servers = ["gdscript"]
+language-id = "gdscript" 
+
+[language-server.gdscript]
+command = "nc"
+args = ["127.0.0.1", "6005"]
+
+

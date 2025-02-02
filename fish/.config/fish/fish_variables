@@ -35,4 +35,5 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/home/wolfey/code/gdshader\x2dlsp\x1e/home/wolfey/code/zls/zig\x2dout/bin\x1e/home/wolfey/code/ols\x1e/home/wolfey/code/Odin\x1e/home/wolfey/\x2elocal/share/Steam/steamapps/common/Team\x20Fortress\x202/bin\x1e/home/wolfey/go/bin
 SETUVAR lucid_skip_newline:true
